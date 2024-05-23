@@ -283,7 +283,7 @@ input, select, textarea {
 		font-size: 0.9em;
 	}
 
-	h3.alignText {
+	h3.align-center {
 		text-align: center;
 	}
 
@@ -2990,7 +2990,7 @@ input, select, textarea {
 			input[type="button"],
 			button,
 			.button {
-				padding: 0;
+				padding: 5;
 			}
 
 		}
@@ -4161,56 +4161,19 @@ input, select, textarea {
 
 	}
 
-/*Codigo proprio*/
-.position-text-service,
-.text-left,
-.text-right {
-	position: relative;
-	width: 50em;
-}
-
-.text-left {
-	left: 280px;
-	text-align: left;
-}
-
-.text-right {
-	left: 280px;
-	text-align: right;
-}
-
-.h2-right {
-position: relative;
-left: 33.5em;
-text-align: right;
-width: 450px;
-margin-top: 5px;
-}
-
-.h2-left {
-	position: relative;
-	width: 20em;
-	left: 13.5em;
-}
-
-.align {
-	position: relative;
-	left: 45vw;
-}
-
-.align-list {
-	text-align: left;
-}
-
-.footer-copy {
-	margin-left: 2em;
-	margin-bottom: 1.2em;
-}
-
 .whatsapp-button {
 	position: fixed;
 	bottom: 20px;
 	right: 60px;
 	max-width: 10px;
 	cursor: pointer;
+  }
+
+  /* Service Mobile */
+  @media only screen and (max-width: 768px) {
+	.box-service{
+	align-items: center;
+	padding: 15px;
+}
+
   }
