@@ -4277,7 +4277,6 @@ body.is-preload #banner p {
   .box-service-text {
     width: 50vw;
   }
-
   .box-align-right {
     position: relative;
     right: -33.5vw;
@@ -4287,6 +4286,5 @@ body.is-preload #banner p {
     position: relative;
     left: 15vw;
   }
-
   
 }
