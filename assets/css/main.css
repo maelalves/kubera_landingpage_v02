@@ -2995,6 +2995,7 @@ button,
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
+  margin-bottom: 2em;
 }
 
 input[type="submit"]:hover,
@@ -4286,5 +4287,4 @@ body.is-preload #banner p {
     position: relative;
     left: 15vw;
   }
-  
 }
