@@ -4288,3 +4288,13 @@ body.is-preload #banner p {
     left: 15vw;
   }
 }
+
+.pol {
+  font-size: 12px;
+  margin-left: 3em;
+  color: #919191;
+}
+
+.pol a {
+  text-decoration: none;
+}
